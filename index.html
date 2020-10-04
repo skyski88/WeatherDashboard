@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="jumbotron" style="background-color: black;">
+            <div class="col-lg" style="color: white; font: bold;">
+                <h1>Weather Report</h1>
+            </div>
+        </div>
+
+
+        <!-- search functionality -->
+        <div class="container">
+            <div class="form-group">
+                <label for="searchTerm">
+                    <h3>Search for a City:</h3>
+                </label>
+                <input type="search" class="form-control" id="citySearchField">
+                <button id="getWeather">Get Weather</button>
+            </div>
+        </div>
+
+
+        <!-- Card Deck -->
+        <div class="container">
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p id="humidity"></p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        </script>
+        <script src="index.js"></script>
+
+</body>
+
+</html>
