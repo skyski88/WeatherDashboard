@@ -54,3 +54,18 @@
       float: none;
     }
   }
+/* 
+.card {
+  width: 20%;
+} */
+
+img {
+height: 50px;
+width: 50px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
